@@ -1,0 +1,57 @@
+public class Raiders
+{
+
+  public static int score(int pushups, int situps, int mile, boolean isMale)
+  {
+    if(isMale)
+    {
+      
+      
+      
+    }
+    
+    
+  }
+  public static int malePushUpsScore(int pushUps)
+  {
+    switch(pushUps)
+    {
+      case 2:
+        return 5;
+        break;
+      case 3:
+        return 6;
+        break;
+        
+      case 4:
+        return 8;
+        break;
+      case 5:
+        return 9;
+        break;
+      case 6:
+        return 10;
+        break;
+        
+      case 7:
+        return ;
+      case 8:
+        return 6;
+      case 9:
+        return 8;
+        
+      case 10:
+        return 5;
+      case 11:
+        return 6;
+        break;
+      case 12:
+        return 8;
+        break;
+    }
+  
+  
+  
+  }
+
+}

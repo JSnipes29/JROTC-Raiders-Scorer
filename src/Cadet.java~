@@ -1,0 +1,31 @@
+public class Cadet
+{
+  String lastName;
+  String firstName;
+  int pushUps;
+  int sitUps;
+  int mile;
+  boolean isMale;
+  int score;
+  public Cadet(String lastName, String firstName, int pushUps, int sitUps, int mile, boolean isMale, int score)
+  {
+    this.lastName = lastName;
+    this.firstName = firstName;
+    this.pushUps = pushUps;
+    this.sitUps = sitUps;
+    this.mile = mile;
+    this.isMale = isMale;
+    this.score = score;
+    
+  }
+  public String toString()
+  {
+    System.out.println("Name: " + lastName + ", " + firstName);
+    System.out.println("\tPushups: " + pushUps);
+    System.out.println("\tSitups: " + sitUps);
+    System.out.println("\tMile: " + mile);
+    System.out.println("\tScore: " + score);
+  
+  }
+
+}
